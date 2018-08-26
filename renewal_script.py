@@ -1,10 +1,6 @@
 import os
 import sys
-import logging
-
-from actions import SecurityGroupActions
-
-logger = logging.getLogger(__name__)
+from actions import SecurityGroupActions, logger
 
 security_group_actions = SecurityGroupActions()
 

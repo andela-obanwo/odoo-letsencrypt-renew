@@ -1,0 +1,2 @@
+# Cron Job to weekly attempt to renew letsencrypt ssl certificate
+0 3 * * 1 /home/ubuntu/odoo-letsencrypt-renew/renewal_script.sh

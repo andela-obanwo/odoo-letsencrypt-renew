@@ -12,7 +12,7 @@ source odoo-letsencrypt-renew/bin/activate
 python manage_security_access.py enable_https
 
 # attempt certificate renewal
-sudo certbot renew >> logs/log.txt
+source /etc/letsencrypt/renewal/renewalscript.sh >> logs/log.txt
 
 # disable https access
 python manage_security_access.py disable_https
